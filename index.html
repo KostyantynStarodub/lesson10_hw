@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Lesson 10. Images. Font Awesome. Basic animation</h1>
+    <h2>Font Awesome + transition</h2>
+    <div class="icons">
+        <div class="icons_left">
+            <i class="fab fa-500px fa-spin"></i>
+            <i class="fas fa-american-sign-language-interpreting"></i>
+            <i class="fas fa-mobile fa-pulse"></i>
+        </div>
+        <div class="icons_right">
+            <p>Spining icon</p>
+            <p>Stable icon</p>
+            <p>Pulsing icon</p>
+        </div>    
+    </div>
+    <p>Наведись на блок и увидишь магию <b>transition</b></p>
+    <h2>Transform</h2>
+    <div class="figures">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <p><b>Transform & keyframes</b> в действии</p>
+    <h2>CSS Background</h2>
+    <div class="back_img"></div>
+    <p>Выставляем картинку через <b>CSS</b> свойство <b>background</b></p>
+    <h2>Images ( HTML Picture )</h2>
+    <picture>
+        <source media="(min-width: 1100px)" srcset="./img/ijGEDe.jpg">
+        <source media="(min-width: 1000px)" srcset="./img/146866314_6335022_image_1.jpg">
+        <source media="(min-width: 900px)" srcset="./img/zastavusha_300x181.jpg">
+        <img src="./img/ijGEDe.jpg" alt="">
+    </picture>
+    <h2>HTML object-fit</h2>
+    <div class="pictures">
+        <div class="picture1">
+            <div class="picture_image">
+                <img src="./img/ijGEDe.jpg" alt="">
+            </div>
+            <div class="picture_text">
+                <p>Здесь кроется картинка с расширением <b>1920*1035</b></p>
+            </div>
+        </div>
+        <div class="picture2">
+            <div class="picture_image">
+                <img src="./img/146866314_6335022_image_1.jpg" alt="">
+            </div>
+            <div class="picture_text">
+                <p>Здесь кроется картинка с расширением <b>700*350</b></p>
+            </div>
+        </div>
+        <div class="picture3">   
+            <div class="picture_image">
+                <img src="./img/zastavusha_300x181.jpg" alt="">
+            </div>
+            <div class="picture_text">
+                <p>Здесь кроется картинка с расширением <b>300*181</b></p>
+            </div>
+        </div>
+    </div>
+    <h2>Universies in a row</h2>
+    <div class="box">
+        <div class="box1">
+            <div class="image1">
+                <img src="./img/146866314_6335022_image_1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Winter</h3>
+                <p>Winter is such a time of the year when everything around is pleasant white. You can feel the coldness and a special atmosphere. There is a faint hint of celebration. Snow caps crunch underfoot. Somewhere in the distant depths, the measured beat of the bell is heard. It seems that a miracle is about to happen. But of course nothing happens.</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="image2">
+                <img src="./img/ijGEDe.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Cars</h3>
+                <p>People cannot live without cars. They are afraid of cars. And they live mainly in countries with cheap cars. To drive to work for them, you need special rights. Such rights that you can start the engine yourself, and he played all your favorite songs on the radio all the way. And if you don't have a car, you can't buy one either. What do you do then? You walk.</p>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="image3">
+                <img src="./img/zastavusha_300x181.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Smartphones</h3>
+                <p>The main attribute of people is a smartphone. He should always be with you, always on, and by the network indicator he can determine the state of affairs. He will not only allow you to accurately determine which battery and charge you are pumping, but will also be able to find out your entire biography, just by looking at the screen. In addition, all information will be displayed on your screen, including your favorite films and collectible discs.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
